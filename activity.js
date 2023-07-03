@@ -11,11 +11,11 @@ connection.on('clickedNext', function() {
     connection.trigger('updateActivity', configuration);
 });
 
-document.getElementById('submitBtn').addEventListener('click', function() {
-    var configuration = JSON.parse(document.getElementById('configuration').value);
-    connection.trigger('updateActivity', configuration);
-});
+// document.getElementById('submitBtn').addEventListener('click', function() {
+//     var configuration = JSON.parse(document.getElementById('configuration').value);
+//     connection.trigger('updateActivity', configuration);
+// });
 
-document.getElementById('cancelBtn').addEventListener('click', function() {
-    connection.trigger('destroyActivity');
-});
+// document.getElementById('cancelBtn').addEventListener('click', function() {
+//     connection.trigger('destroyActivity');
+// });
