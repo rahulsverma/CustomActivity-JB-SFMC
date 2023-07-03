@@ -1,13 +1,42 @@
+
 {
 	"workflowApiVersion": "1.1",
-	"metaData":	{
+	"metaData": {
 		"icon": "icon.png",
 		"category": "message"
 	},
 	"type": "REST",
+	"lang": {
+		"en-US": {
+			"name": "Custom Activity for Journey Builder",
+			"description": "A custom activity using REST API."
+		}
+	},
+	"arguments": {
+		"execute": {
+			"inArguments": [],
+			"outArguments": []
+		}
+	},
 	"userInterfaces": {
 		"configInspector": {
 			"size": "medium"
+		}
+	},
+	"configurationArguments": {
+		"execute": {
+			"url": "https://customactivity-jb-sfmc.onrender.com/URI/for/your/activity/execute"
+		},
+		"publish": {
+			"url": "https://customactivity-jb-sfmc.onrender.com/URI/for/your/activity/publish"
+		}
+	},
+	"schema": {
+		"arguments": {
+			"execute": {
+				"inArguments": [],
+				"outArguments": []
+			}
 		}
 	}
 }
