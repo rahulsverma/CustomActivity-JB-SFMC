@@ -1,0 +1,16 @@
+{
+  "name": "customactivity-jb-sfmc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "activity.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "jquery": "^3.7.0",
+    "postmonger": "^0.0.16"
+  }
+}
